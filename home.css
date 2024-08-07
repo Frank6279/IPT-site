@@ -1,0 +1,64 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+        height: 100hv;
+    }
+    .container{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(0, 0, 0.1);
+        width: 400px;
+        height:auto;
+
+    }
+    .profile-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-item{
+        padding: 15px;
+        font-family: Arial;
+        font-size: 16px;
+    }
+   .detail-item strong,span{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-item strong{
+        color:  rgb(13, 158, 158);
+    }
+    .detail-item span{
+        font-family: 'Times New Roman';
+        font-size: 18px;
+    }
+    h2{
+        padding: 10px;
+        font-size: 18px;
+        color: rgb(13, 158, 158);
+    }
+    .profile-header span{
+        align-content: center;
+        color: black;
+        font-weight: lighter;
+    }
+    .brief{
+        padding: 20px;
+        flex-direction: column;
+        width: 300px;
+        margin-right: 10px;
+        align-items: start;
+        height: 100%;
+        background-color: white;
+    h1{
+        color: rgb(13, 6, 112);
+        font-weight: bold;
+    }

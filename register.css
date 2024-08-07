@@ -1,0 +1,76 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.container{
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    background-color: rgba(18, 159, 184, 0.692);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0,0,3px rgb(0,0,0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    align-items: center;
+    color: #ffffff;;
+}
+.fill-detail{
+    margin-bottom: 10px;
+}
+input{
+    width: 95%;
+    font-size: 14px;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+label{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+input:focus{
+    border-color: rgb(228, 93, 3);
+    outline: none;
+}
+select{
+    width: 100px;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 3px;
+}
+select:focus{
+    border-color: rgb(228, 93, 3);
+    outline: none;
+}
+.btn{
+    background-color: rgb(228, 93, 3);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgba(214, 88, 15, 0.822) ;
+}
